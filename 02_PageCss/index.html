@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDEs Populares</title>
+    <link href="./styles.css" rel="stylesheet"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 p-4 font-sans">
+
+    <header class="bg-white shadow-lg rounded-xl p-4 mb-10">
+        <nav class="flex flex-col md:flex-row md:justify-center space-y-3 md:space-y-0 md:space-x-10 text-lg font-bold">
+            <a href="https://code.visualstudio.com/" target="_blank" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-105 text-center">VSCODE</a>
+            <a href="https://www.jetbrains.com/idea/" target="_blank" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-105 text-center">INTELLIJ IDEA</a>
+            <a href="https://netbeans.apache.org/front/main/index.html" target="_blank" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-105 text-center">NETBEANS</a>
+        </nav>
+    </header>  
+
+    <main class="max-w-6xl mx-auto px-4">
+        <h1 class="text-5xl font-extrabold text-center mb-10 text-indigo-700 tracking-tight">CONOCIENDO LOS IDEs</h1>
+        
+        <section class="bg-white p-8 rounded-xl shadow-2xl mb-12">
+            <h2 class="text-3xl font-bold mb-5 border-b-4 border-indigo-200 pb-3 text-indigo-600">¿QUÉ ES UN IDE?</h2>
+            <p class="mb-4 leading-relaxed text-lg">
+                Un IDE (**Integrated Development Environment**) o Entorno de Desarrollo Integrado 
+                es un programa que te permite crear software de forma más **rápida y ordenada**.
+            </p>
+            <p class="mb-4 leading-relaxed text-lg">
+                Normalmente, un IDE incluye un editor de código fuente, herramientas de
+                automatización de compilación y un depurador. Algunos IDEs también incluyen
+                un control de versiones y un diseñador de interfaz gráfica.
+            </p>
+            <p class="font-semibold text-xl mb-3 mt-6 text-gray-700">Un IDE normalmente incluye:</p>
+            <ul class="list-disc list-inside ml-6 space-y-2 text-lg">
+                <li>Editor de código fuente</li>
+                <li>Compilador</li>
+                <li>Depurador</li>     
+            </ul>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold mb-8 text-center text-indigo-600">Los IDEs más populares son:</h2>
+            <div class="flex justify-center mb-8">
+                <ol class="flex space-x-6 text-2xl font-black">
+                    <li class="p-3 bg-yellow-400 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-md">1</li>
+                    <li class="p-3 bg-yellow-400 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-md">2</li>
+                    <li class="p-3 bg-yellow-400 text-gray-800 rounded-full w-10 h-10 flex items-center justify-center shadow-md">3</li>
+                </ol>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <article class="bg-white p-6 rounded-xl shadow-2xl border-t-4 border-purple-500 hover:shadow-3xl transition duration-500">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="vscode" class="w-14 h-14"/>
+                        <h3 class="text-3xl font-semibold text-purple-600">Visual Code</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        Visual Studio Code es un editor de código fuente desarrollado por Microsoft
+                        para Windows, Linux y macOS. Incluye soporte para depuración, control de 
+                        versiones Git incorporado, resaltado de sintaxis, finalización inteligente 
+                        de código, fragmentos y refactorización de código.
+                    </p>
+                </article>
+
+                <article class="bg-white p-6 rounded-xl shadow-2xl border-t-4 border-orange-500 hover:shadow-3xl transition duration-500">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" alt="IntelliJ" class="w-14 h-14"/>
+                        <h3 class="text-3xl font-semibold text-orange-600">Intellij Idea</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        IntelliJ IDEA es un entorno de desarrollo integrado (IDE) escrito en Java 
+                        para el desarrollo de software. Desarrollado por JetBrains, está disponible 
+                        tanto en una edición comunitaria gratuita y de código abierto como en una 
+                        edición comercial con características adicionales.
+                    </p>
+                </article>
+
+                <article class="bg-white p-6 rounded-xl shadow-2xl border-t-4 border-green-500 hover:shadow-3xl transition duration-500">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" alt="Netbeans" class="w-14 h-14"/>
+                        <h3 class="text-3xl font-semibold text-green-600">Netbeans</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        Apache NetBeans es un entorno de desarrollo integrado (IDE) gratuito y de 
+                        código abierto para desarrollar con Java, JavaScript, PHP, Python, 
+                        HTML5 y otros lenguajes. Proporciona plantillas de proyecto, asistentes 
+                        para crear aplicaciones y una interfaz gráfica de usuario (GUI) para 
+                        facilitar el desarrollo.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+
+        <form class="bg-white p-8 rounded-xl shadow-2xl mb-12 flex flex-col sm:flex-row items-center space-y-5 sm:space-y-0 sm:space-x-6">  
+            <label for="ide-search" class="font-bold text-xl text-gray-700 flex-shrink-0">Buscar IDE:</label>
+            <input 
+                type="text" 
+                id="ide-search" 
+                name="ide" 
+                maxlength="10" 
+                placeholder="Escribe el nombre de un IDE..."
+                class="flex-grow p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-500/50 transition duration-300 w-full sm:w-auto"
+            />
+            <div class="flex space-x-4">
+                <button type="submit" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 shadow-md">Buscar</button>
+                <button type="reset" class="bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300 shadow-md">Limpiar</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer class="text-center mt-10 p-5 border-t-2 border-gray-300 text-base text-gray-500">
+        Derechos de Autor &copy; 2025 IDEs Populares
+    </footer>
+    
+</body>
+</html>
